@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/icons/tabs-icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tabs</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <script defer type="module" src="/src/main.ts"></script>
+  </head>
+  <body>
+    <header class="header-main">
+      <h1>Tabs with JS</h1>
+      <h2>Enable each tab when are clicked</h2>
+    </header>
+    <main class="main-content">
+      <section class="tabs-pages">
+        <header class="pages-list">
+          <menu class="tabs-container">
+            <li id="first-tab" class="tabs currently">First Tab</li>
+            <li id="second-tab" class="tabs">Second Tab</li>
+            <li id="third-tab" class="tabs">Third Tab</li>
+            <li id="fourth-tab" class="tabs">Fourth Tab</li>
+          </menu>
+          <main>
+            <article>Clicking each tab should hide the content of the other tab and show the content of clicked tab. By default, enable the first tab.</article>
+            <article class="section-onchange">
+              <img class="char-img" id="image-character" src="imgs/goku-ui.avif" alt="Content for the first tab">
+            </article>
+            <article>Add some dummy content or just add a simple text showing the tab</article>
+          </main>
+        </header>
+      </section>
+    </main>
+    <footer class="footer-main">
+      <h4>This project was made by Sergio Elias Arce Roldán</h4>
+      <h4>
+        The source code is available in:
+        <a
+        class="github"
+        href="https://www.github.com/sergiomainjg"
+        rel="noopener"
+        target="_blank"
+        >
+        SergioMainJG
+      </a>
+      </h4>
+    </footer>
+  </body>
+</html>
